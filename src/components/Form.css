@@ -1,0 +1,32 @@
+.todo-input {
+padding:14px 32px 14px 16px;
+border-radius:4px 0 0 4px;
+border:2px solid #02b8de;
+outline:none;
+width:320px;
+background:transparent;
+color: #333;
+}
+.todo-button {
+padding:16px;
+border:none;
+border-radius:0 4px 4px 0;
+cursor:pointer;
+outline:none;
+background:linear-gradient(
+90deg,
+ rgb(13, 177, 241) 0%,
+ rgb(22, 105, 201) 100%
+);
+color: #fff;
+text-transform:capitalize;
+}
+.add-form{
+    display: flex;
+}
+@media screen and(max-width:760px){
+    .add-form{
+    display: flex;
+    min-width: 200px;
+    }
+}

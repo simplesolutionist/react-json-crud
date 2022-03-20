@@ -1,0 +1,41 @@
+.sidebar{
+width:20%;
+border:2px solid #dbe4f1;
+position:relative;
+}
+.workspace-container{
+height:64px;
+display:flex;
+align-items:center;
+padding-left:35%;
+justify-content:space-between;
+border-bottom:1px solid #dbe4f1;
+}
+.name{
+align-items:center;
+text-align:center;
+justify-content:center;
+}
+.tabs{
+padding-top:20px;
+}
+.tab-items{
+margin-horizontal:10px;
+display:grid;
+grid-template-columns:15% auto;
+height:28px;
+cursor:pointer;
+padding:10px;
+}
+.tab-items:hover{ 
+background:#02b8de;    
+color:white;
+}
+@media screen and (max-width: 760px) {
+    .sidebar {
+      width: 50%;
+      font-size:1px;
+      height:450px;
+    }
+  }
+  
