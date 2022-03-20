@@ -91,7 +91,6 @@ Tests are scaffolded using [Jest](https://facebook.github.io/jest/docs/en/gettin
 ### Extra Questions
 
 - If the endpoint required authentication, how would you consider implementing this?
-I would look to
 
 - What if we wanted the UI to update based on changes from the server?
 
